@@ -1,0 +1,17 @@
+name:                haddock-bug
+version:             0.1.0.0
+synopsis:            Initial project template from stack
+description:         Please see README.md
+homepage:            https://github.com/githubuser/haddock-bug#readme
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2016 Author name here
+category:            Web
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Lib
+  build-depends:       base >= 4.7 && < 5, microlens-th
+  default-language:    Haskell2010
